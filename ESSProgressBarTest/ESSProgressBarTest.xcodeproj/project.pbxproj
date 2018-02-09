@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3915F52A1AFA324600B20D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F5291AFA324600B20D69 /* AppDelegate.m */; };
-		3915F52C1AFA324600B20D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F52B1AFA324600B20D69 /* main.m */; };
 		3915F52E1AFA324600B20D69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3915F52D1AFA324600B20D69 /* Images.xcassets */; };
 		3915F5311AFA324600B20D69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3915F52F1AFA324600B20D69 /* MainMenu.xib */; };
 		3915F53D1AFA324600B20D69 /* ESSProgressBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F53C1AFA324600B20D69 /* ESSProgressBarTestTests.m */; };
-		3915F54B1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F54A1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */; };
+		80BFB58A202E32EB00060834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFB589202E32EB00060834 /* AppDelegate.swift */; };
+		80BFB58C202E336A00060834 /* AnimatedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFB58B202E336A00060834 /* AnimatedProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +27,13 @@
 /* Begin PBXFileReference section */
 		3915F5231AFA324600B20D69 /* ESSProgressBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESSProgressBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3915F5271AFA324600B20D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3915F5281AFA324600B20D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3915F5291AFA324600B20D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3915F52B1AFA324600B20D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3915F52D1AFA324600B20D69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3915F5301AFA324600B20D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3915F5361AFA324600B20D69 /* ESSProgressBarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESSProgressBarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3915F53B1AFA324600B20D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3915F53C1AFA324600B20D69 /* ESSProgressBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESSProgressBarTestTests.m; sourceTree = "<group>"; };
-		3915F5491AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProgressIndicator+ESSProgressIndicatorCategory.h"; sourceTree = "<group>"; };
-		3915F54A1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProgressIndicator+ESSProgressIndicatorCategory.m"; sourceTree = "<group>"; };
+		80BFB589202E32EB00060834 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80BFB58B202E336A00060834 /* AnimatedProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +75,8 @@
 		3915F5251AFA324600B20D69 /* ESSProgressBarTest */ = {
 			isa = PBXGroup;
 			children = (
-				3915F5491AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */,
-				3915F54A1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */,
-				3915F5281AFA324600B20D69 /* AppDelegate.h */,
-				3915F5291AFA324600B20D69 /* AppDelegate.m */,
+				80BFB58B202E336A00060834 /* AnimatedProgressBar.swift */,
+				80BFB589202E32EB00060834 /* AppDelegate.swift */,
 				3915F52D1AFA324600B20D69 /* Images.xcassets */,
 				3915F52F1AFA324600B20D69 /* MainMenu.xib */,
 				3915F5261AFA324600B20D69 /* Supporting Files */,
@@ -94,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				3915F5271AFA324600B20D69 /* Info.plist */,
-				3915F52B1AFA324600B20D69 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,6 +158,7 @@
 				TargetAttributes = {
 					3915F5221AFA324600B20D69 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0920;
 					};
 					3915F5351AFA324600B20D69 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -215,9 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3915F52C1AFA324600B20D69 /* main.m in Sources */,
-				3915F52A1AFA324600B20D69 /* AppDelegate.m in Sources */,
-				3915F54B1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */,
+				80BFB58A202E32EB00060834 /* AppDelegate.swift in Sources */,
+				80BFB58C202E336A00060834 /* AnimatedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,10 +327,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ESSProgressBarTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -345,16 +341,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ESSProgressBarTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3915F5441AFA324600B20D69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -375,6 +374,7 @@
 		3915F5451AFA324600B20D69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -407,6 +407,7 @@
 				3915F5421AFA324600B20D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3915F5431AFA324600B20D69 /* Build configuration list for PBXNativeTarget "ESSProgressBarTestTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				3915F5451AFA324600B20D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
